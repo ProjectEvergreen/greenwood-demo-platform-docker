@@ -33,7 +33,7 @@ RUN --mount=type=bind,source=package.json,target=package.json \
     npm ci --omit=dev
 
 # custom install the Greenwood CLI for running the server
-RUN npm i @greenwood/cli@latest
+RUN npm i @greenwood/cli@${GREENWOOD_VERSION}
 
 ################################################################################
 # Create a stage for building the application.
