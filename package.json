@@ -12,18 +12,17 @@
   },
   "keywords": [
     "Greenwood",
-    "Vercel",
+    "Docker",
     "WCC",
     "Web Components",
-    "Serverless",
-    "Edge",
+    "Serverfull",
     "SSR"
   ],
   "scripts": {
-    "clean": "rimraf public .greenwood .vercel",
+    "clean": "rimraf public .greenwood",
     "dev": "greenwood develop",
     "build": "greenwood build",
-    "serve": "greenwood build && greenwood serve",
+    "serve": "greenwood serve",
     "start": "npm run serve"
   },
   "devDependencies": {
