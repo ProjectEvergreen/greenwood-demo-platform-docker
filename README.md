@@ -45,4 +45,5 @@ docker push myregistry.com/myapp
 ### References
 
 - [Docker's Node.js guide](https://docs.docker.com/language/nodejs/)
+- [Reference Repo](https://github.com/docker/docker-nodejs-sample)
 - [Docker for Desktop](https://docs.docker.com/desktop/)

@@ -32,7 +32,7 @@ RUN --mount=type=bind,source=package.json,target=package.json \
     --mount=type=cache,target=/root/.npm \
     npm ci --omit=dev
 
-# custom install Greenwood CLI for running the server
+# custom install the Greenwood CLI for running the server
 RUN npm i @greenwood/cli@latest
 
 ################################################################################

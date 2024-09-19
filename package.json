@@ -1,14 +1,14 @@
 {
-  "name": "greenwood-demo-adapter-vercel",
+  "name": "greenwood-demo-platform-docker",
   "version": "1.0.0",
-  "description": "A demonstration repo for deploying a full-stack Greenwood app with Vercel static hosting and Serverless + Edge functions",
-  "homepage": "https://github.com/ProjectEvergreen/greenwood-demo-adapter-vercel#readme",
+  "description": "A demonstration repo for deploying a full-stack Greenwood app in a Docker container",
+  "homepage": "https://github.com/ProjectEvergreen/greenwood-demo-platform-docker#readme",
   "author": "Owen Buckley <owen@thegreenhouse.io>",
   "license": "ISC",
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ProjectEvergreen/greenwood-demo-adapter-vercel.git"
+    "url": "git+https://github.com/ProjectEvergreen/greenwood-demo-platform-docker.git"
   },
   "keywords": [
     "Greenwood",
