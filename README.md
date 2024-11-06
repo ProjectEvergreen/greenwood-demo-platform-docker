@@ -4,7 +4,7 @@ This is a demonstration repo for [running Greenwood inside a NodeJS Docker conta
 
 ## Overview
 
-This repo aims to demonstrate a couple of Greenwood's features ([API Routes](https://www.greenwoodjs.io/docs/api-routes/) and [SSR pages](https://www.greenwoodjs.io/docs/server-rendering/#routes)), focused on using Web Components (WCC) and Web Standards to deliver the content for the demo.
+This repo aims to demonstrate a couple of Greenwood's features ([API Routes](https://www.greenwoodjs.dev/docs/pages/api-routes/) and [SSR pages](https://www.greenwoodjs.dev/docs/pages/server-rendering/)), focused on using Web Components (WCC) and Web Standards to deliver the content for the demo.
 
 ## Usage
 
