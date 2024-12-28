@@ -18,7 +18,7 @@ WORKDIR /usr/src/app
 
 
 ################################################################################
-# Create a stage for installing production dependecies.
+# Create a stage for installing production dependencies.
 FROM base as deps
 
 # Download dependencies as a separate step to take advantage of Docker's caching.
@@ -33,7 +33,7 @@ RUN --mount=type=bind,source=package.json,target=package.json \
     npm ci --omit=dev
 
 # custom install the Greenwood CLI for running the server
-RUN npm i @greenwood/cli@${GREENWOOD_VERSION}
+RUN npm i @greenwood/cli@alpha
 
 ################################################################################
 # Create a stage for building the application.
