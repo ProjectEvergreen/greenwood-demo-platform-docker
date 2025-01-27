@@ -6,7 +6,7 @@
 
 # Want to help us make this template better? Share your feedback here: https://forms.gle/ybq9Krt8jtBL3iCk7
 
-ARG NODE_VERSION=18.20.2
+ARG NODE_VERSION=22.13.0
 ARG GREENWOOD_VERSION=latest
 
 ################################################################################
@@ -18,7 +18,7 @@ WORKDIR /usr/src/app
 
 
 ################################################################################
-# Create a stage for installing production dependecies.
+# Create a stage for installing production dependencies.
 FROM base as deps
 
 # Download dependencies as a separate step to take advantage of Docker's caching.
