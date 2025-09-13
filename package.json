@@ -25,6 +25,6 @@
     "start": "npm run serve"
   },
   "devDependencies": {
-    "@greenwood/cli": "~0.33.0-alpha.2"
+    "@greenwood/cli": "~0.33.0"
   }
 }
